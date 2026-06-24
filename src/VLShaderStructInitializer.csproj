@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <BaseOutputPath>..\lib\</BaseOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="VL.Stride.Runtime" Version="$(VLVersion)" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\shaders\**\*.sdsl" Link="shaders\%(RecursiveDir)%(Filename)%(Extension)"></None>
+        <Compile Include="..\shaders\**\*.sdsl.cs" Link="shaders\%(RecursiveDir)%(Filename)%(Extension)"></Compile>
+    </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+shader MyCustomShaderBase 
+{
+    struct MyCustomShaderStruct 
+    {
+        float Test;
+    };
+    
+    stage MyCustomShaderStruct MyStructInput;
+
+    float4 ApplyStruct(float4 color)
+    {
+        return float4(MyStructInput.Test, 0.0, 0.0, 1.0);
+    }
+};

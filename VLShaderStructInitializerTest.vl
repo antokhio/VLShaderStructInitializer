@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="JzmhYKi1AW2LnJknWOYqiV" LanguageVersion="2025.7.0" Version="0.128">
+  <NugetDependency Id="PfPiozSGDPCO7AgFnhxTc1" Location="VL.CoreLib" Version="2025.7.0" />
+  <Patch Id="B1cDYDcgZIaPHYbSbgTCwf">
+    <Canvas Id="Bd4C8tOQg50O69GYFh9QTu" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="TsqJjqeMD87MBW1nBYv78G">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="CcHXK1Fdh1eQbhQx4GVzaQ">
+        <Canvas Id="JgYsciRgnL3OstnMTHt2PI" CanvasType="Group">
+          <Node Bounds="365,300,67,19" Id="LfP5sE6lZvJML2WGGNNkJP">
+            <p:NodeReference LastCategoryFullName="Stride.Rendering.DrawShaders" LastDependency="VL.Stride.Rendering.EffectShaderNodes (D:\VVVV\VLShaderStructInitializer)">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessNode" Name="TestShader" />
+            </p:NodeReference>
+            <Pin Id="N2oLn5vghC8LJUo5i4n79D" Name="My Struct Input" Kind="InputPin" />
+            <Pin Id="Qvkh6y2RXWDOTumS76RlSy" Name="World" Kind="InputPin" />
+            <Pin Id="VMKKBLUmfDcOar3DzYUZTO" Name="Parameter Setter" Kind="InputPin" />
+            <Pin Id="A03pIkb1PY1ODSDrORqYCW" Name="Output" Kind="OutputPin" />
+          </Node>
+        </Canvas>
+        <Patch Id="D8n4gCWP39COX6gXxXq0z2" Name="Create" />
+        <Patch Id="MNtpLA8FjglMxbewjcfT6R" Name="Update" />
+        <ProcessDefinition Id="BG9xOGceW9XNWPQOXtVnHs">
+          <Fragment Id="CSqrUHvwxagOBmamycVwWU" Patch="D8n4gCWP39COX6gXxXq0z2" Enabled="true" />
+          <Fragment Id="QMuWkAa63npOx2V9ijFPsg" Patch="MNtpLA8FjglMxbewjcfT6R" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="CrMQQoNXdsVMGmQfBCNPDJ" Location="VL.Stride" Version="2025.7.0" />
+  <PlatformDependency Id="IiCdmdLCD6sL0aeWIzJbIx" Location="./lib/Debug/net8.0/VLShaderStructInitializer.dll" IsForward="true" />
+</Document>

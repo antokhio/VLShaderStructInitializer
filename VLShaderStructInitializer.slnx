@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/.workspace/">
+    <File Path=".csharpierrc" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="src/VLShaderStructInitializer.csproj" />
+</Solution>
