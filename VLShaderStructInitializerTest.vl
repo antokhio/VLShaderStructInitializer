@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="JzmhYKi1AW2LnJknWOYqiV" LanguageVersion="2025.7.0" Version="0.128">
-  <NugetDependency Id="PfPiozSGDPCO7AgFnhxTc1" Location="VL.CoreLib" Version="2025.7.0" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="JzmhYKi1AW2LnJknWOYqiV" LanguageVersion="2025.7.2" Version="0.128">
+  <NugetDependency Id="PfPiozSGDPCO7AgFnhxTc1" Location="VL.CoreLib" Version="2025.7.2" />
   <Patch Id="B1cDYDcgZIaPHYbSbgTCwf">
     <Canvas Id="Bd4C8tOQg50O69GYFh9QTu" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -15,13 +15,13 @@
       </p:NodeReference>
       <Patch Id="CcHXK1Fdh1eQbhQx4GVzaQ">
         <Canvas Id="JgYsciRgnL3OstnMTHt2PI" CanvasType="Group">
-          <Node Bounds="365,300,67,19" Id="LfP5sE6lZvJML2WGGNNkJP">
+          <Node Bounds="380,320,67,19" Id="LfP5sE6lZvJML2WGGNNkJP">
             <p:NodeReference LastCategoryFullName="Stride.Rendering.DrawShaders" LastDependency="VL.Stride.Rendering.EffectShaderNodes (D:\VVVV\VLShaderStructInitializer)">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="TestShader" />
             </p:NodeReference>
-            <Pin Id="N2oLn5vghC8LJUo5i4n79D" Name="My Struct Input" Kind="InputPin" />
-            <Pin Id="Qvkh6y2RXWDOTumS76RlSy" Name="World" Kind="InputPin" />
+            <Pin Id="SIMd6sS8hhEMMLLjA2va90" Name="My Struct Input" Kind="InputPin" />
+            <Pin Id="IJfEgHLi2wJMXqSFaYaMPP" Name="World" Kind="InputPin" />
             <Pin Id="VMKKBLUmfDcOar3DzYUZTO" Name="Parameter Setter" Kind="InputPin" />
             <Pin Id="A03pIkb1PY1ODSDrORqYCW" Name="Output" Kind="OutputPin" />
           </Node>
@@ -35,6 +35,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="CrMQQoNXdsVMGmQfBCNPDJ" Location="VL.Stride" Version="2025.7.0" />
+  <NugetDependency Id="CrMQQoNXdsVMGmQfBCNPDJ" Location="VL.Stride" Version="2025.7.2" />
   <PlatformDependency Id="IiCdmdLCD6sL0aeWIzJbIx" Location="./lib/Debug/net8.0/VLShaderStructInitializer.dll" IsForward="true" />
 </Document>
