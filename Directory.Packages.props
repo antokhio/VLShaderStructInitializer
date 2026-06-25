@@ -1,9 +1,6 @@
 <Project>
     <PropertyGroup>
-        <VLVersion>2025.7.3-0009-g4f015fbeb0</VLVersion>
-        <AvaloniaVersion>11.2.1</AvaloniaVersion>
-        <VLAvaloniaVersion>0.6.3</VLAvaloniaVersion>
-        <NurbsyVersion>1.5.5</NurbsyVersion>
+        <VLVersion>2025.7.2</VLVersion>
         <StrideVersion>4.2.1.2487</StrideVersion>
     </PropertyGroup>
 </Project>
